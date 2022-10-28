@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fredoka+One&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    /* background-image: url(../images/2.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
