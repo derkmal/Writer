@@ -8,9 +8,12 @@ class Form extends React.Component {
                     <div className="myFormField">
                         <input type="text" name="name" placeholder="Name"/>
                     </div>
+
                     <div className="myFormField">
                         <input type="text" name="email" placeholder="Email"/>
                     </div>
+
+                    <button className="myButton">Download</button>
                 </form>
             </div>
         );
