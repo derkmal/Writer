@@ -5,9 +5,8 @@ const Hintergrund = () => {
     <div className="background">
         <div className="overlay"></div>
 		
-        <div className="container">
-			<h2>Hallo!</h2>
-		</div> 
+			<h1>LEARN THE SIMPLE TACTIC I USED TO RANK #1 FOR "ONLINE MARKETING"</h1>
+      <h2>Enter your email to get the same cheatsheet <br/>Neil Patel uses for SEO.</h2>
     </div>
   )
 }
