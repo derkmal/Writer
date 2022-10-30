@@ -1,12 +1,15 @@
-import React from "react"
+import React from "react";
+import myImage from '../images/2.jpg';
+
 
 const Hintergrund = () => {
   return (
     <div className="background">
+		<img src={myImage} alt="Schriftsteller" style={{width:'100%'}}/>
+
         <div className="overlay"></div>
-		
-			<h1>LEARN THE SIMPLE TACTIC I USED TO RANK #1 FOR "ONLINE MARKETING"</h1>
-      <h2>Enter your email to get the same cheatsheet <br/>Neil Patel uses for SEO.</h2>
+		<h1>LEARN THE SIMPLE TACTIC I USED TO RANK #1 FOR "ONLINE MARKETING"</h1>
+		<h2>Enter your email to get the same cheatsheet <br/>Neil Patel uses for SEO.</h2>
     </div>
   )
 }
