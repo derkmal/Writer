@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: center;
     height: 100%;
+    height: auto !important;
     min-height: 625px;
 }
 
@@ -30,14 +31,14 @@
 }
 
 .myText h1, h2 {
-    z-index: 3;
+    z-index: 1;
     color: white;
     margin: 0 auto;
     text-align: center;
 }
 
 .myFormContainer {
-    z-index: 3;
+    z-index: 1;
     margin: 0 auto;
     /* text-align: center; */
     width: 300px; 
