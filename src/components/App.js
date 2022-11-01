@@ -6,8 +6,7 @@ import Hintergrund from './Hintergrund';
 function App() {
   return (
     <div>
-		<Hintergrund />
-		{/* <Form />     */}
+		  <Hintergrund />
     </div>
   );
 }

@@ -15,9 +15,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
-    height: auto !important;
     min-height: 625px;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
 }
 
 .overlay {
@@ -30,22 +31,32 @@
     left: 0;
 }
 
-.myText h1, h2 {
-    z-index: 1;
-    color: white;
+.myText {
+    position: absolute;
+    display: block;
+    float: left;
     margin: 0 auto;
+    margin-top: 50px;
+}
+
+.myText h1, h2 {
+    color: white;
     text-align: center;
 }
 
-.myFormContainer {
-    z-index: 1;
-    margin: 0 auto;
-    /* text-align: center; */
-    width: 300px; 
-    
+.myText h1 {
+    margin-bottom: 40px;
 }
 
-.myFormContainer input[type=text] {
+.myFormContainer {
+    position: absolute;
+    display: block;
+    float: left;
+    margin: 350px auto;
+    width: 350px; 
+}
+
+input[type=text] {
     width: 100%;
     margin-bottom: 5px;
     border: 0;
@@ -54,7 +65,7 @@
     font-size: 15px;
 }
 
-.myFormContainer input[type=submit] {
+input[type=submit] {
     width: 100%; 
     padding: 10px;
     border: 0;

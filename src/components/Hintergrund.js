@@ -12,8 +12,8 @@ const Hintergrund = () => {
 			<div className="overlay"></div>
 
 			<div className="myText">
-				<h1>LEARN THE SIMPLE TACTIC I USED TO RANK #1 FOR "ONLINE MARKETING"</h1>
-				<h2>Enter your email to get the same cheatsheet <br/>Neil Patel uses for SEO.</h2>
+				<h1>Acquire The Uncanny Ability <br/>That Will Make You An Award-Winning Fictional Writer</h1>
+				<h2>You will learn a special set of skills that easily generate interesting ideas. <br/>And you will be ready to never suffer from writer's block</h2>
 			</div>
 
 			<div className="myFormContainer">
