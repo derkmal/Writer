@@ -2,6 +2,9 @@ import React from "react";
 
 class Form extends React.Component {
     render() {
+        const greet = () => {
+            alert("Hallo");
+        };
         return(
             <div className="myFormContainer">
                 <form className="myForm">
@@ -13,7 +16,7 @@ class Form extends React.Component {
                         <input type="text" name="email" placeholder="Email"/>
                     </div>
 
-                    <button className="myButton">Download</button>
+                    <button className="myButton" onClick={greet}>Download</button>
                 </form>
             </div>
         );
