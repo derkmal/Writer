@@ -29,7 +29,9 @@ const Hintergrund = () => {
 					</div>
 
 					<div onClick={greet}>
-						<input type="submit" value="Download"></input>
+						{/* <input type="submit" value="Yes, I want to be a Writer"></input> */}
+						<input type="submit" value="YES, I WANT TO BE A WRITER"></input>
+
 					</div>
 				</form>
 			</div>		
