@@ -47,6 +47,8 @@
 .myText h1 {
     margin-bottom: 30px;
     font-family: 'PT Serif', serif;
+    font-size: 40px;
+    line-height: 1.3;
     
 }
 
