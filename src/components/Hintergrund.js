@@ -12,8 +12,10 @@ const Hintergrund = () => {
 			<div className="overlay"></div>
 
 			<div className="myText">
-				<h1>Acquire The Uncanny Ability <br/>That Will Make You An Award-Winning Fictional Writer</h1>
-				<h2>You will learn a special set of skills that easily generate interesting ideas. <br/>And you will be ready to never suffer from writer's block</h2>
+				<h1>ACQUIRE THE UNCANNY ABILITY <br/>THAT WILL MAKE YOU AN AWARD-WINNING FICTIONAL WRITER</h1>
+				{/* <h1>Acquire The Uncanny Ability <br/>That Will Make You An Award-Winning Fictional Writer</h1> */}
+				<h2>You will learn special skills that easily generate interesting ideas <br/>And you will be prepared to never suffer from writer's block</h2>
+				<p>Enter your email and name to master the craft of the most prominent fictional writers</p>
 			</div>
 
 			<div className="myFormContainer">
