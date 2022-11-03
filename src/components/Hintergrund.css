@@ -34,7 +34,7 @@
 .myText {
     position: absolute;
     display: block;
-    float: left;
+    /* float: left; */
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -70,7 +70,7 @@
 .myFormContainer {
     position: absolute;
     display: block;
-    float: left;
+    /* float: left; */
     margin: 350px auto;
     width: 400px; 
 }
