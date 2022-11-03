@@ -12,7 +12,7 @@ const Hintergrund = () => {
 			<div className="overlay"></div>
 
 			<div className="myText">
-				<h1>ACQUIRE THE UNCANNY ABILITY <br/>THAT WILL MAKE YOU AN AWARD-WINNING FICTIONAL WRITER</h1>
+				<h1>ACQUIRE THE UNCANNY ABILITY THAT WILL MAKE YOU AN AWARD-WINNING FICTIONAL WRITER</h1>
 				{/* <h1>Acquire The Uncanny Ability <br/>That Will Make You An Award-Winning Fictional Writer</h1> */}
 				<h2>You will learn special skills that easily generate interesting ideas <br/>And you will be prepared to never suffer from writer's block</h2>
 				<p>Enter your email and name to master the craft of the most prominent fictional writers</p>
@@ -29,12 +29,12 @@ const Hintergrund = () => {
 					</div>
 
 					<div onClick={greet}>
-						{/* <input type="submit" value="Yes, I want to be a Writer"></input> */}
-						<input type="submit" value="YES, I WANT TO BE A WRITER"></input>
-
+						<input type="submit" id="button" value="YES, I WANT TO BE A WRITER"></input>
 					</div>
+
 				</form>
 			</div>		
+			<div className="clear"></div>
 
 		</div>
 	)
