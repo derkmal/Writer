@@ -24,7 +24,7 @@
 .overlay {
     position: absolute;
     z-index: -1;
-    background: rgba(0,0,0,0.5);
+    background: rgba(155, 111, 90, 0.8);
     width: 100%;
     height: 100%;
     top: 0;
@@ -40,13 +40,14 @@
 }
 
 .myText h1, h2, p {
-    color: white;
+    /* color: white; */
     text-align: center;
 }
 
 .myText h1 {
     margin-bottom: 30px;
     font-family: 'PT Serif', serif;
+    color: #d4c8bc;
     font-size: 40px;
     line-height: 1.3;
     
@@ -55,13 +56,15 @@
 .myText h2 {
     margin-bottom: 30px;
     font-family: 'Kanit', sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 400;
+    color: #d4c8bc
 }
 
 .myText p {
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Kanit', sans-serif;
+    color: #d4c8bc
 }
 
 .myFormContainer {
@@ -79,16 +82,19 @@ input[type=text] {
     border-radius: 3px;
     padding: 15px;
     font-size: 15px;
+    background-color: white;
 }
 
 input[type=submit] {
     width: 100%; 
-    padding: 10px;
+    padding: 15px;
     border: 0;
     border-radius: 3px;
-    font-size: 15px;
+    /* font-family: 'Kanit', sans-serif; */
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    background-color: #d4975e;
 }
 
 .myFormContainer input:focus {
