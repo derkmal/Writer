@@ -10,7 +10,7 @@
 
 .background {
     position: relative;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     z-index: 0;
     text-align: center;
     background-image: url(../images/2.jpg);
@@ -33,7 +33,11 @@
     left: 0;
 }
 
-h1 {
+.myText {
+    padding: 20px 0;
+}
+
+.myText h1 {
     margin-bottom: 20px;
     font-family: 'PT Serif', serif;
     color: #e0d3c6; 
@@ -41,7 +45,7 @@ h1 {
     line-height: 1.3;
 }
 
-h2 {
+.myText h2 {
     margin-bottom: 20px;
     font-family: 'Kanit', sans-serif;
     font-size: 32px;
@@ -49,23 +53,23 @@ h2 {
     color: #e0d3c6;
 }
 
-p {
+.myText p {
     font-size: 28px;
     font-family: 'Kanit', sans-serif;
     color: #e0d3c6
 }
 
-.offer {
+.myText .offer {
     font-size: 35px;
     color: black;
 }
 
-.offer s {
+.myText .offer s {
     font-size: 20px;
 }
 
 .myFormContainer {
-    /* position: relative; */
+    /* position: relative; This one was the problem */
     display: block;
     z-index: 1;
     margin: 0 auto;
