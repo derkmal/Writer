@@ -36,13 +36,13 @@
     position: absolute;
     display: block;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
     /* text-align: center; */
 
 }
 
 .myText h1 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: 'PT Serif', serif;
     color: #d4c8bc;
     font-size: 40px;
@@ -50,7 +50,7 @@
 }
 
 .myText h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: 'Kanit', sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -58,9 +58,18 @@
 }
 
 .myText p {
-    font-size: 24px;
+    font-size: 28px;
     font-family: 'Kanit', sans-serif;
     color: #d4c8bc
+}
+
+.myText .offer {
+    font-size: 30px;
+    color: black;
+}
+
+.myText .offer s {
+    font-size: 20px;
 }
 
 .myFormContainer {
@@ -69,7 +78,7 @@
     z-index: 1;
     margin: 0 auto;
     width: 40%; 
-    top: 400px;
+    top: 430px;
 }
 
 input[type=text] {
