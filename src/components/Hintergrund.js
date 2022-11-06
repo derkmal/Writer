@@ -1,5 +1,4 @@
 import React from "react";
-// import myImage from '../images/2.jpg';
 import './Hintergrund.css';
 
 const Hintergrund = () => {
