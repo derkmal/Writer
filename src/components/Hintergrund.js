@@ -42,4 +42,3 @@ const Hintergrund = () => {
 }
 
 export default Hintergrund
-
