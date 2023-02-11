@@ -48,15 +48,16 @@
 .myText h2 {
     margin-bottom: 25px;
     font-family: 'Raleway', sans-serif; /* 'Kanit', sans-serif */
-    font-size: 33px;
-    font-weight: 400;
+    font-size: 2.3em;
+    font-weight: 300;
     line-height: 1.3;
     color: #e0d3c6;
 }
 
 .myText p {
-    font-size: 33px;
+    font-size: 2em;
     font-family: 'Raleway', sans-serif;
+    font-weight: 200;
     line-height: 1.3;
     color: #e0d3c6
 }
